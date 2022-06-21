@@ -220,6 +220,10 @@ nav {
 
 @media (max-width: 1150px){
 
+    body {
+        height: 390vh;
+    }
+
     /* nav */
 
     nav {
@@ -227,6 +231,7 @@ nav {
     } 
 
     /* hero */
+
     #welcome-section {
         max-width: 100vw;
         height: 100vh;
@@ -255,6 +260,14 @@ nav {
         text-align: center;
     }
 
+    /* contact */
+
+    #contact {
+        width: 100vw;
+        height: 100vh;
+        margin-top: 180px;
+    }
+
     /* social media */
 
     #social-media {
@@ -269,6 +282,7 @@ nav {
     }
 
     /* footer */
+
     #footer {
         display: none;
     }
